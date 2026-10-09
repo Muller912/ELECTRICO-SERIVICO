@@ -431,7 +431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bccf6d2fed7c57b41aa98a3c435e7fdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  domicilios: []
+  domicilio: []
 --- !u!4 &1055039060
 Transform:
   m_ObjectHideFlags: 0
@@ -981,6 +981,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Casita
+      objectReference: {fileID: 0}
+    - target: {fileID: 7632757438615821196, guid: 1c81d9e21c8740645a24bca9bb2c5f57,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9118745484635546543, guid: 1c81d9e21c8740645a24bca9bb2c5f57,
+        type: 3}
+      propertyPath: servicioElectricoActivo
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c81d9e21c8740645a24bca9bb2c5f57, type: 3}
